@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vault Search - Heist CTF</title>
+    <title>Vault Search - Fort Knox</title>
     <style>
         body { font-family: sans-serif; margin: 20px; background-color: #f0f0f0; }
         .container { background-color: white; padding: 30px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); max-width: 800px; margin: auto; }
@@ -31,6 +31,16 @@
             {{ user_input | safe }}
         </span></p>
 
-        </div>
+        <script>
+            // A reference to the output area for easier manipulation in the payload
+            var output_box = document.getElementById('output-area');
+
+            // No flag or special functions are defined directly here.
+            // You need to fetch it!
+            document.addEventListener('DOMContentLoaded', (event) => {
+                // Any other regular JavaScript for the page could go here
+            });
+        </script>
+    </div>
 </body>
 </html>
