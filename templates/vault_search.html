@@ -19,16 +19,6 @@
             display: block;
             overflow-wrap: break-word;
         }
-        .flag-display {
-            font-family: 'Courier New', monospace;
-            font-size: 1.2em;
-            color: #007bff;
-            background-color: #e0f2f7;
-            padding: 10px;
-            border: 2px dashed #007bff;
-            margin-top: 20px;
-            text-align: center;
-        }
         .flag-hint { color: #888; font-size: 0.9em; margin-top: 30px; }
     </style>
 </head>
@@ -41,16 +31,6 @@
             {{ user_input | safe }}
         </span></p>
 
-        <div id="vault-master-key" style="display:none; visibility:hidden;">
-            HEIST{f0rk_h4s_b3en_h1j4ck}
         </div>
-
-        <script>
-            // This script might do other things, but doesn't expose the flag directly
-            document.addEventListener('DOMContentLoaded', (event) => {
-                // Any other regular JavaScript for the page could go here
-            });
-        </script>
-    </div>
 </body>
 </html>
