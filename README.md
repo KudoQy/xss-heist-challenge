@@ -1,1 +1,0 @@
-# xss-heist-challenge
